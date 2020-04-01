@@ -43,3 +43,11 @@
 .separator-skew {
     height: 60px;
 }
+
+
+@media(max-width: 991px){
+    body > app-root > app-profile > main > section.section-profile-cover.section-shaped.my-0 > div.separator.separator-bottom.separator-skew{
+        z-index: 0 !important;
+    }
+
+}

@@ -9,3 +9,12 @@
         opacity: 1;
     }
 }
+
+@media(max-width: 991px){
+    #navbar-main{
+        text-align: end;
+    }
+    #navbar-main > div{
+        display: inline !important;
+    }
+}

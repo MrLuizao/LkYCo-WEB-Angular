@@ -93,3 +93,16 @@
         @include transition($transition-base);
     }
 }
+
+@media(min-width: 576px){
+    body > app-root > app-profile > main > section.section > div > div > div > div.row.justify-content-center > div.col-lg-3.order-lg-2 > div > a > img{
+        margin-top: -5rem;
+    }
+}
+
+@media(max-width: 575px){
+    body > app-root > app-profile > main > section.section > div > div > div > div.row.justify-content-center > div.col-lg-3.order-lg-2 > div > a > img{
+        margin-top: -5rem;
+    }
+}
+

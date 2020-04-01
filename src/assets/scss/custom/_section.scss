@@ -565,3 +565,10 @@
  bottom:0;
  pointer-events:none
 }
+
+@media(max-width: 575px){
+    body > app-root > app-profile > main > section.section{
+        padding-top: 0rem !important;
+    }
+}
+
