@@ -60,7 +60,7 @@ body {
   font-size: $font-size-base;
   font-weight: $font-weight-base;
   line-height: $line-height-base;
-  color: $body-color;
+  // color: $body-color;
   text-align: left; // 3
   background-color: $body-bg; // 2
 }
@@ -481,3 +481,10 @@ template {
 [hidden] {
   display: none !important;
 }
+
+
+// body > app-root > app-profile > main > section.section > div > div > div > div:nth-child(2) > div:nth-child(4) > i{
+//   color: rgb(124, 14, 14) !important;
+// }
+
+

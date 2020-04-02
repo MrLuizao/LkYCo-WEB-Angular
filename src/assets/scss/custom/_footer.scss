@@ -53,16 +53,16 @@
     background: transparent;
     pointer-events: none;
 
-    &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 600px;
-        height: 2000px;
-        background: theme-color("secondary");
-        transform: skew(0,-8deg);
-    }
+    // &:before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     top: 600px;
+    //     height: 2000px;
+    //     // background: theme-color("secondary");
+    //     transform: skew(0,-8deg);
+    // }
 
     .container {
         pointer-events: auto;
@@ -85,3 +85,7 @@
 // body > app-root > app-footer > footer{
 //     padding-top: 367px !important;
 // }
+
+body > app-root > app-footer > footer{
+    background-color: transparent !important;
+}

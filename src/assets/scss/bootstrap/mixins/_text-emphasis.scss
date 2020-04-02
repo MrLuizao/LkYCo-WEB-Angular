@@ -12,3 +12,17 @@
     }
   }
 }
+
+body > app-root > app-footer > footer > div > div.row.row-grid.align-items-center.my-md > div:nth-child(1) > h3,
+body > app-root > app-footer > footer > div > div.row.align-items-center.justify-content-md-between > div:nth-child(1) > div > a,
+body > app-root > app-footer > footer > div > div.row.row-grid.align-items-center.mb-5 > div:nth-child(1) > h3
+{
+  color: rgb(124, 14, 14) !important;
+}
+
+body > app-root > app-footer > footer > div > div.row.row-grid.align-items-center.my-md > div:nth-child(1) > h4,
+body > app-root > app-footer > footer > div > div.row.align-items-center.justify-content-md-between > div:nth-child(1) > div,
+body > app-root > app-footer > footer > div > div.row.row-grid.align-items-center.mb-5 > div:nth-child(1) > h4
+{
+  color: #222222;
+}

@@ -10991,7 +10991,7 @@ button.bg-darker:hover {
 }
 
 .text-primary {
-    color: #5e72e4!important
+    color: #690c0c!important
 }
 
 a.text-primary:focus,
@@ -11027,7 +11027,7 @@ a.text-info:hover {
 }
 
 .text-warning {
-    color: #fb6340!important
+    color: rgba(124, 14, 14)
 }
 
 a.text-warning:focus,
