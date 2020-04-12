@@ -1,3 +1,27 @@
 .section-components .alert {
   margin-top: 1.25rem;
 }
+
+.modal.show{
+  display: block;
+  overflow: visible;
+}
+
+.font-advise{
+  color: #fb6340 !important;
+  font-weight: bold;
+}
+
+.body-modal{
+  color: white;
+  background-color: #222222;
+  text-align: center;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+#myModal > div > div > div > div > button {
+  color: #fb6340;
+  margin-top: -0.2rem;
+  margin-right: 1rem;
+}

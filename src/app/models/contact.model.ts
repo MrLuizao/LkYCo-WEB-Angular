@@ -5,4 +5,5 @@ export class UserModel {
     phone: number;
     email: string;
     message: string;
-  }
+    accept: boolean;
+}

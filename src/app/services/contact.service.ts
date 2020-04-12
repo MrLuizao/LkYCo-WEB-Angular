@@ -9,7 +9,7 @@ export class ContactService {
 
   private apiKey = 'AIzaSyACi4bQvO0BhjhWZ5ENA_wpeqwLYcoYUTQ';
 
-  private url = 'https://lkyco-2a58b.firebaseio.com/users';
+  private url = 'https://lkyco-2a58b.firebaseio.com';
   
 
   constructor( private http: HttpClient) {
@@ -18,7 +18,7 @@ export class ContactService {
 
   postContactForm(user: UserModel){
 
-    return this.http.post(`${this.url}/heroes.json`, user);
+    return this.http.post(`${this.url}/users.json`, user);
   }
 
 }

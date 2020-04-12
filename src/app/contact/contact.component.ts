@@ -21,7 +21,13 @@ export class ContactComponent implements OnInit {
 
   showSuccess() {
     this.toastr.success('Pronto estaremos en contacto', '¡Recibimos tu mensaje!',{
-      timeOut: 2300,
+      timeOut: 2300
+    });
+  }
+
+  showError() {
+    this.toastr.error('No olvides aceptar también el aviso de privacidad', '¡Completa todos los campos!',{
+      timeOut: 3000
     });
   }
 
@@ -31,8 +37,9 @@ export class ContactComponent implements OnInit {
 
     if( contactForm.invalid){
       console.log('El formulario es invalido');
-      return;
-    }
+      this.showError();
+        return;
+    }          
 
     this.contactService.postContactForm(this.user).subscribe(resp =>{
       console.log(resp);
