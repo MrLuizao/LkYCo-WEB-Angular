@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/argon-design-system-angular",
+    "public": "dist/lky-angular",
     "ignore": [
       "firebase.json",
       "**/.*",
